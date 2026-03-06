@@ -12,6 +12,4 @@
 
 - 📫 How to reach me: **shawn@nichols-ai.org**
 
-- 😄 Pronouns: ... [He/Him, She/Her, They/Them, etc.]
-
 - ⚡ Fun fact: I'm leveraging decades of leadership experience in the transportation industry to build the next generation of AI-powered logistics and software development tools!
