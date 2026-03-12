@@ -1,15 +1,45 @@
--👋 Hi, I’m @Shawn5cents
+# 🤖 Shawn Nichols Sr.
+### **Founder, Nichols Transco LLC // Agentic Infrastructure Architect**
+> "Building the bridge for the machines. The humans will follow."
 
-- 👀 I’m interested in bridging the gap between extensive **Transportation/Logistics Management** experience and modern **AI/Software Development**. My focus includes **Edge AI** (especially on NVIDIA Jetson platforms), developing and running **Local Large Language Models (LLMs)**, creating practical **AI Agents**, exploring **Full-Stack Web Development**, and leveraging AI for operational efficiency and innovation. I'm also passionate about **Entrepreneurship**, having founded both Nichols Transco LLC (Transportation) and Nichols AI (AI Development).
+---
 
-- 🌱 I’m currently learning advanced techniques for deploying and optimizing various LLMs (coding, multimodal, agentic models from OpenAI, xAI, DeepSeek, Anthropic, and open-source communities) on resource-constrained devices like the **Jetson Orin Nano**. I'm actively working with tools like **Ollama**, **Docker**, **VS Code + Copilot**, **`aider`**, **Open WebUI**, and exploring cloud platforms (**Supabase**, **Vercel**, **Cloudflare**, Azure, GCP), vector databases, RAG, and MLOps practices.
+### 🛡️ THE MISSION
+I spent **15 years in high-pressure Logistics (VP at Swift/Walmart Grocery)** managing $24M P&Ls and 200-person teams. Since 2023, I have spent **20,000+ hours** (18 hours a day, 5 hours of sleep) obsessed with the **Agentic Web** and **AI Infrastructure**. 
 
-- 💞️ I’m looking to collaborate on projects that:
-    - Combine **Logistics/Transportation domain expertise with AI-driven solutions**.
-    - Develop and optimize practical **Edge AI applications**, particularly on Jetson hardware.
-    - Build innovative **AI agent systems** or **AI-powered development tools**.
-    - Apply LLMs to solve real-world business and operational challenges.
+I build the "Perception Filters" that allow autonomous agents to see the world at **1/10th the cost and 10x the speed**.
 
-- 📫 How to reach me: **shawn@nichols-ai.org**
+---
 
-- ⚡ Fun fact: I'm leveraging decades of leadership experience in the transportation industry to build the next generation of AI-powered logistics and software development tools!
+### 🚀 FEATURED WORK: AgentSkin (v3.5)
+**AgentSkin** is a Model Context Protocol (MCP) server that optimizes raw API data into high-density Markdown "Skins."
+- **Performance:** **72.86% Token Reduction** on live Weather.gov tests.
+- **Innovation:** Integrated **Reasoning Skins** for 34% semantic noise reduction in agent reasoning.
+- **Tech:** MCP, Node.js, Hono, Recursive Shorthand Engine.
+- [View Repository](https://github.com/Shawn5cents/agentskin) (Launching Today)
+
+---
+
+### 🛠️ TECH STACK
+- **AI Core:** MCP, LLM fine-tuning, RAG, Agentic Frameworks (Claude, Cursor, GPT).
+- **Edge AI:** NVIDIA Jetson (Orin Nano), Ollama, Local LLM deployment.
+- **Full-Stack:** Node.js, TypeScript, Hono, Supabase, Cloudflare, Docker.
+- **Logistics:** AS400, TMS, EDI, P&L management, DOT Compliance.
+
+---
+
+### 📊 BY THE NUMBERS
+- **20,000+** Hours of AI CLI & Development time since 2023.
+- **58** Private Repositories (The "Underground" Archive).
+- **15** Years of VP-level Logistics Leadership.
+- **5** Years Sober. 100% Focused.
+
+---
+
+### 📫 CONNECT
+- **X:** [@Shawn5cents](https://x.com/Shawn5cents)
+- **Email:** shawn@nichols-ai.org
+- **Web:** [agentskin.dev](https://agentskin.dev)
+
+---
+© 2026 NICHOLS TRANSCO LLC // [SYSTEM_SECURE]
