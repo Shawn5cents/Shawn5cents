@@ -32,7 +32,7 @@ I build the "Perception Filters" that allow autonomous agents to see the world a
 - **20,000+** Hours of AI CLI & Development time since 2023.
 - **58** Private Repositories (The "Underground" Archive).
 - **15** Years of VP-level Logistics Leadership.
-- **5** Years Sober. 100% Focused.
+- **5**  Years and 100% Focused.
 
 ---
 
