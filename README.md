@@ -5,7 +5,7 @@
 ---
 
 ### 🛡️ THE MISSION
-I spent **15 years in high-pressure Logistics (VP at Swift/Walmart Grocery)** managing $24M P&Ls and 200-person teams. Since 2023, I have spent **20,000+ hours** (18 hours a day, 5 hours of sleep) obsessed with the **Agentic Web** and **AI Infrastructure**. 
+I am obsessed with the **Agentic Web** and **AI Infrastructure**. 
 
 I build the "Perception Filters" that allow autonomous agents to see the world at **1/10th the cost and 10x the speed**.
 
