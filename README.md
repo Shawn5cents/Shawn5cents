@@ -27,7 +27,15 @@
 <tr><td><code>05</code></td><td><b>Collective</b></td><td>private</td><td>Distributed AI control plane with one Scheduler authority, bounded capabilities, exact routing, signed evidence, independent verification, and safe recovery.</td></tr>
 </table>
 
-<sub>Private research systems are available by demo or granted repository access where appropriate.</sub>
+### /* product systems */
+
+<table>
+<tr><td><code>01</code></td><td><b>Link2Note</b></td><td>private product</td><td>Turns links, videos, PDFs, audio, playlists, and channels into structured notes, transcripts, archives, and files; includes auth, billing, gated workflows, and staged multi-model study/review modes.</td></tr>
+<tr><td><code>02</code></td><td><b>OpenSwitch</b></td><td>private product</td><td>OpenAI-compatible marketplace that deterministically routes model + provider by capability, benchmark quality, latency, health, funding state, terms, and cost.</td></tr>
+<tr><td><code>03</code></td><td><b>Chirp</b></td><td>private alpha</td><td>Push-to-talk interaction layer for existing AI chats and human channels while preserving the underlying conversation's context, tools, and history.</td></tr>
+</table>
+
+<sub>Private systems are available by demo or granted repository access where appropriate.</sub>
 
 ### /* showcase */
 
