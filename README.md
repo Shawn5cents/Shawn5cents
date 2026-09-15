@@ -1,45 +1,68 @@
-# 🤖 Shawn Nichols Sr.
-### **Founder, Nichols Transco LLC // Agentic Infrastructure Architect**
-> "Building the bridge for the machines. The humans will follow."
+<!--
+============================================================
+  Shawn Nichols Sr. — profile README
+  Proof-first profile for agent systems, evaluations, and local inference.
+  Visual structure inspired by clean terminal-native developer profiles.
+============================================================
+-->
 
----
+<p align="center">
+  <img alt="Shawn Nichols Sr. — agent systems, evaluations, orchestration, and local inference" width="100%" src="./assets/hero.svg" />
+</p>
 
-### 🛡️ THE MISSION
-I am obsessed with the **Agentic Web** and **AI Infrastructure**. 
+### /* open source */
 
-I build the "Perception Filters" that allow autonomous agents to see the world at **1/10th the cost and 10x the speed**.
+<table>
+<tr><td><code>01</code></td><td><b><a href="https://github.com/Shawn5cents/agentskin">AgentSkin</a></b></td><td>author</td><td>Semantic API pruning for AI agents — MCP tooling that reduces noisy JSON before it reaches the model.</td></tr>
+<tr><td><code>02</code></td><td><b><a href="https://github.com/Shawn5cents/agent-zero-nvidia-nim">agent-zero-nvidia-nim</a></b></td><td>author</td><td>NVIDIA NIM chat + embedding provider for Agent Zero, with model discovery and self-hosted endpoint support.</td></tr>
+<tr><td><code>03</code></td><td><b><a href="https://github.com/Shawn5cents/agent-engineering-skills">agent-engineering-skills</a></b></td><td>adapter</td><td>Nine production engineering skills adapted for Agent Zero with explicit upstream attribution and validation.</td></tr>
+</table>
 
----
+### /* current systems */
 
-### 🚀 FEATURED WORK: AgentSkin (v3.5)
-**AgentSkin** is a Model Context Protocol (MCP) server that optimizes raw API data into high-density Markdown "Skins."
-- **Performance:** **72.86% Token Reduction** on live Weather.gov tests.
-- **Innovation:** Integrated **Reasoning Skins** for 34% semantic noise reduction in agent reasoning.
-- **Tech:** MCP, Node.js, Hono, Recursive Shorthand Engine.
-- [View Repository](https://github.com/Shawn5cents/agentskin) (Launching Today)
+<table>
+<tr><td><code>01</code></td><td><b>micro-cpp-harness</b></td><td>research</td><td>Native C++20 coding-agent harness for local inference, verifier-gated execution, traces, and reproducible qualification.</td></tr>
+<tr><td><code>02</code></td><td><b>Invariant</b></td><td>private</td><td>Autonomous engineering runtime built around one rule: a builder does not certify its own work.</td></tr>
+<tr><td><code>03</code></td><td><b>Particle</b></td><td>private</td><td>Recursive agent runtime with scoped workers, persistent specialists, recovery, and state outside the chat transcript.</td></tr>
+<tr><td><code>04</code></td><td><b>Collective</b></td><td>private</td><td>Distributed AI control plane with one Scheduler authority, bounded capabilities, and evidence-ranked completion.</td></tr>
+<tr><td><code>05</code></td><td><b>OpenSwitch</b></td><td>private</td><td>Deterministic model + provider routing by capability, quality, health, latency, funding state, and cost.</td></tr>
+</table>
 
----
+### /* showcase */
 
-### 🛠️ TECH STACK
-- **AI Core:** MCP, LLM fine-tuning, RAG, Agentic Frameworks (Claude, Cursor, GPT).
-- **Edge AI:** NVIDIA Jetson (Orin Nano), Ollama, Local LLM deployment.
-- **Full-Stack:** Node.js, TypeScript, Hono, Supabase, Cloudflare, Docker.
-- **Logistics:** AS400, TMS, EDI, P&L management, DOT Compliance.
+<table width="100%">
+<tr>
+<td width="50%"><img alt="Shawn Nichols agent systems architecture" width="100%" src="./assets/agent-systems.svg" /></td>
+<td width="50%"><img alt="Shawn Nichols evaluation and local inference work" width="100%" src="./assets/evals-local.svg" /></td>
+</tr>
+<tr>
+<td align="center"><sub><code>01</code> agent systems — bounded workers, one authority, independent verification</sub></td>
+<td align="center"><sub><code>02</code> evals + local inference — traces, gates, held-out tests, consumer hardware</sub></td>
+</tr>
+</table>
 
----
+### /* background */
 
-### 📊 BY THE NUMBERS
-- **20,000+** Hours of AI CLI & Development time since 2023.
-- **58** Private Repositories (The "Underground" Archive).
-- **15** Years of VP-level Logistics Leadership.
-- **5**  Years and 100% Focused.
+<table>
+<tr><td><code>01</code></td><td><b>operations</b></td><td>Walmart cold-chain compliance, Mercedes just-in-time logistics, P&amp;L, safety, staffing, and turnaround work.</td></tr>
+<tr><td><code>02</code></td><td><b>research focus</b></td><td>Agent runtimes, model/tool evaluation, orchestration, verification, reliability, and local inference.</td></tr>
+<tr><td><code>03</code></td><td><b>working principle</b></td><td>Information is not authority. Claimed completion is not verified completion.</td></tr>
+</table>
 
----
+### /* contributions */
 
-### 📫 CONNECT
-- **X:** [@Shawn5cents](https://x.com/Shawn5cents)
-- **Email:** shawn@nichols-ai.org
-- **Web:** [agentskin.dev](https://agentskin.dev)
+<p align="center">
+  <img alt="Shawn5cents contribution calendar in 3D" width="100%" src="./profile-3d-contrib/profile-shawn.svg" />
+</p>
 
----
-© 2026 NICHOLS TRANSCO LLC // [SYSTEM_SECURE]
+<p align="center">
+  <sub><b>Shawn Nichols Sr.</b> · Nichols AI · <a href="https://github.com/Shawn5cents">@Shawn5cents</a> · <a href="https://agentskin.dev">agentskin.dev</a></sub>
+</p>
+
+<!--
+NOTES
+1) The 3D contribution graph is generated by .github/workflows/profile-3d.yml.
+2) Flagship private systems are described but intentionally not linked.
+3) Keep profile claims conservative: measured evidence over marketing superlatives.
+4) Public upstream/adaptation attribution belongs in each project README and should remain explicit.
+-->

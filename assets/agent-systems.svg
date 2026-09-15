@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">Agent systems architecture</title>
+  <desc id="desc">One scheduler authority coordinates scoped workers and an independent verifier.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101820"/><stop offset="1" stop-color="#1b2937"/></linearGradient></defs>
+  <rect width="900" height="520" rx="18" fill="url(#bg)"/>
+  <text x="48" y="58" fill="#87a7bf" font-family="ui-monospace,monospace" font-size="20">AGENT SYSTEMS</text>
+  <text x="48" y="98" fill="#eef5fa" font-family="Inter,Arial,sans-serif" font-size="30" font-weight="700">Bounded execution. Independent proof.</text>
+  <g stroke="#6da9d2" stroke-width="2" fill="none" opacity="0.9">
+    <path d="M450 180V235M450 235H210V305M450 235V305M450 235H690V305"/>
+    <path d="M210 365V414H450M450 365V414M690 365V414H450"/>
+  </g>
+  <g font-family="ui-monospace,monospace">
+    <rect x="320" y="126" width="260" height="60" rx="10" fill="#22384b" stroke="#82bde5"/>
+    <text x="450" y="164" text-anchor="middle" fill="#f5f9fc" font-size="19">ONE SCHEDULER AUTHORITY</text>
+    <rect x="110" y="305" width="200" height="60" rx="10" fill="#182633" stroke="#5f829b"/>
+    <rect x="350" y="305" width="200" height="60" rx="10" fill="#182633" stroke="#5f829b"/>
+    <rect x="590" y="305" width="200" height="60" rx="10" fill="#182633" stroke="#5f829b"/>
+    <text x="210" y="341" text-anchor="middle" fill="#c7d7e2" font-size="17">SCOPED WORKER</text>
+    <text x="450" y="341" text-anchor="middle" fill="#c7d7e2" font-size="17">SCOPED WORKER</text>
+    <text x="690" y="341" text-anchor="middle" fill="#c7d7e2" font-size="17">SCOPED WORKER</text>
+    <rect x="300" y="414" width="300" height="64" rx="10" fill="#243726" stroke="#86bc8b"/>
+    <text x="450" y="453" text-anchor="middle" fill="#eaf7eb" font-size="18">INDEPENDENT VERIFIER</text>
+  </g>
+  <text x="48" y="500" fill="#7f98aa" font-family="ui-monospace,monospace" font-size="15">authority ≠ output · completion requires evidence</text>
+</svg>

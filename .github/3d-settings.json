@@ -1,0 +1,32 @@
+{
+  "type": "normal",
+  "fileName": "profile-shawn.svg",
+  "backgroundColor": "#f7f9fb",
+  "foregroundColor": "#25313b",
+  "strongColor": "#4d8fbd",
+  "weakColor": "#9eacb7",
+  "radarColor": "#4d8fbd",
+  "growingAnimation": true,
+  "contribColors": [
+    "#ebeff2",
+    "#bdd8e9",
+    "#88b9d7",
+    "#4d8fbd",
+    "#275f87"
+  ],
+  "darkMode": {
+    "type": "normal",
+    "backgroundColor": "#101820",
+    "foregroundColor": "#c9d4dc",
+    "strongColor": "#62a8d8",
+    "weakColor": "#577185",
+    "radarColor": "#62a8d8",
+    "contribColors": [
+      "#17212a",
+      "#20384a",
+      "#315f7d",
+      "#62a8d8",
+      "#9bd4ff"
+    ]
+  }
+}

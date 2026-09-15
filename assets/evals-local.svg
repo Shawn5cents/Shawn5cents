@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">Evaluations and local inference</title>
+  <desc id="desc">A local inference stack feeds a coding harness, execution trace, verifier gate, and held-out evaluation.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101820"/><stop offset="1" stop-color="#1b2937"/></linearGradient></defs>
+  <rect width="900" height="520" rx="18" fill="url(#bg)"/>
+  <text x="48" y="58" fill="#87a7bf" font-family="ui-monospace,monospace" font-size="20">EVALS + LOCAL INFERENCE</text>
+  <text x="48" y="98" fill="#eef5fa" font-family="Inter,Arial,sans-serif" font-size="30" font-weight="700">Measure the harness, not the marketing.</text>
+  <g stroke="#6da9d2" stroke-width="2" fill="none" opacity="0.9">
+    <path d="M155 225H300M450 225H595M745 225V342H610"/>
+    <path d="M450 255V342H535"/>
+  </g>
+  <g font-family="ui-monospace,monospace">
+    <rect x="55" y="180" width="200" height="90" rx="12" fill="#182633" stroke="#5f829b"/>
+    <text x="155" y="215" text-anchor="middle" fill="#d8e5ee" font-size="16">LOCAL MODEL</text>
+    <text x="155" y="242" text-anchor="middle" fill="#8fb1c8" font-size="14">consumer hardware</text>
+    <rect x="300" y="180" width="300" height="90" rx="12" fill="#22384b" stroke="#82bde5"/>
+    <text x="450" y="215" text-anchor="middle" fill="#f3f8fb" font-size="17">NATIVE CODING HARNESS</text>
+    <text x="450" y="242" text-anchor="middle" fill="#9bc1dc" font-size="14">tools · guards · traces · recovery</text>
+    <rect x="645" y="180" width="200" height="90" rx="12" fill="#182633" stroke="#5f829b"/>
+    <text x="745" y="215" text-anchor="middle" fill="#d8e5ee" font-size="16">EXECUTION TRACE</text>
+    <text x="745" y="242" text-anchor="middle" fill="#8fb1c8" font-size="14">reproducible evidence</text>
+    <rect x="455" y="342" width="310" height="88" rx="12" fill="#243726" stroke="#86bc8b"/>
+    <text x="610" y="378" text-anchor="middle" fill="#eef8ef" font-size="17">VERIFIER + HELD-OUT EVAL</text>
+    <text x="610" y="405" text-anchor="middle" fill="#abd0ae" font-size="14">pass · fail · latency · cost · cause</text>
+  </g>
+  <g font-family="ui-monospace,monospace" font-size="14" fill="#7f98aa">
+    <text x="48" y="468">freeze commit → run blind tasks → keep failures → report exact scope</text>
+    <text x="48" y="494">no silent fallback · no self-certification · no benchmark inflation</text>
+  </g>
+</svg>
