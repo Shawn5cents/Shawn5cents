@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="340px" height="60px" viewBox="0 0 340 60" font-family="Consolas,'DejaVu Sans Mono',Menlo,'Liberation Mono',monospace">
+<rect x="1" y="1" width="338" height="58" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+<rect x="12" y="54" width="316" height="3" fill="#e3b341"/>
+<path shape-rendering="crispEdges" fill="#e3b341" d="M85 15h3v3h-3zM88 15h3v3h-3zM88 18h3v3h-3zM91 18h3v3h-3zM91 21h3v3h-3zM94 21h3v3h-3zM94 24h3v3h-3zM97 24h3v3h-3zM91 27h3v3h-3zM94 27h3v3h-3zM88 30h3v3h-3zM91 30h3v3h-3zM85 33h3v3h-3zM88 33h3v3h-3zM100 33h3v3h-3zM103 33h3v3h-3zM106 33h3v3h-3zM109 33h3v3h-3zM112 33h3v3h-3zM115 33h3v3h-3zM118 33h3v3h-3z"/>
+<text x="136" y="35" font-size="18px" fill="#c9d1d9" xml:space="preserve"><tspan fill="#79c0ff">~/nicholsai</tspan></text>
+</svg>

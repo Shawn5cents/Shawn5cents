@@ -1,0 +1,66 @@
+# Rebuilds the neofetch-style card (dark_mode.svg / light_mode.svg) and the link
+# buttons. fetch_stats.py reads the GitHub API and caches per-repo line counts in
+# cache/loc.json; build_card.py and build_links.py render the SVGs.
+name: Update Profile Card
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "assets/**"
+      - "tools/**"
+      - ".github/workflows/profile-card.yml"
+
+permissions:
+  contents: write
+
+env:
+  STATS_TOKEN: ${{ secrets.STATS_TOKEN }}
+
+concurrency:
+  group: profile-card
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install requests
+
+      # Totals include private repos, so this needs STATS_TOKEN: a fine-grained
+      # token with read-only Contents + Metadata on all repos. Without it the
+      # step is skipped and the card is rebuilt from the committed cache rather
+      # than falling back to public-only numbers.
+      - name: Fetch GitHub stats
+        if: ${{ env.STATS_TOKEN != '' }}
+        env:
+          GITHUB_TOKEN: ${{ env.STATS_TOKEN }}
+          GITHUB_USER: ${{ github.repository_owner }}
+        run: python tools/fetch_stats.py
+
+      - name: Build card and buttons
+        run: |
+          python tools/build_card.py
+          python tools/build_links.py
+
+      - name: Commit
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add -A ./*.svg cache
+          git diff --staged --quiet && exit 0
+          git commit -m "chore: refresh profile card"
+          git pull --rebase origin main
+          git push
